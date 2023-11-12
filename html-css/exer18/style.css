@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+em HTML e id = em CSS e # (so pode um elemento)
+em HTML e class = em CSS e . (pode varios elementos)
+*/
+body{
+    background-color: skyblue;
+    font-family: monospace, sans-serif;
+    text-align: justify;
+}
+h1{
+    color: blueviolet;
+}
+
+#principal{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+}
+h2{
+    color: purple;
+}
+.basico{
+    color: gray;
+}
+.intermediario{
+    color: yellow;
+}
+.avancado{
+    color: red;
+}
+p{
+    text-align: justify;
+}
+.destaque{
+    background-color: aqua;
+}
+/*podemos tambem colocar tbm id e class na msm tag*/

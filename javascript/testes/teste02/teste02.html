@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>teste 02</title>
+</head>
+<body>
+
+    <main>
+        <div id="yes" class="d1">YES</div>
+        <div id="not" class="d2">NOT</div>
+    </main>'
+
+    <script>
+
+        let yes = window.document.getElementById('yes')
+        let not = window.document.getElementById('not')
+        let d1 = window.document.getElementsByTagName('div') [0]
+        let d2 = window.document.getElementsByTagName('div') [1]
+        yes.addEventListener('click', clicar)
+        not.addEventListener('click', clicar2)
+        d1.addEventListener('mouseleave', sair)
+        d2.addEventListener('mouseleave', sair2)
+
+
+        function clicar(){
+            yes.style.backgroundColor= 'rgb(73, 250, 107)'
+        }
+        function clicar2(){
+            not.style.backgroundColor= 'rgb(248, 18, 2)'
+        }
+        function sair(){
+            d1.style.backgroundColor= 'gray'
+        }
+        function sair2(){
+            d2.style.backgroundColor='gray'
+        }
+
+
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*
+        SElETORES PERSONAl IZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+
+        */
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: brown;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        .especia{
+            background-color: black;
+        }
+        a:active{
+            color: aqua;
+        }
+        a::before{
+            content: ' 🤜';
+        }
+        a::after{
+            content: '🤛 ';
+            text-decoration: none;
+            font-weight: lighter;
+            color: grey;
+        }
+    </style>
+    <title>links</title>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://twitter.com/zerotriste" target="_blank">twitter</a></li>
+
+        <li><a href="https://instagram.com/zerotriste" target="_blank" class="especia">insta</a></li>
+
+        <li><a href="file:///D:/gehenna/projetos/meusite/index.html" target="_blank">meu site</a></li>
+    </ul>
+</body>
+</html>

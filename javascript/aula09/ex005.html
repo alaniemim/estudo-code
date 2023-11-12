@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: larger;
+        }
+        strong{
+            color: lightskyblue;
+        }
+    </style>
+    <title>primeiros passos com DOM</title>
+
+</head>
+<body>
+    <h1>iniciando estudos com DOM <!-- dom significa document object model--></h1>
+    <p>aqui vai o resultado</p>
+    <p>apredendo a usar o <strong>DOM</strong> em JS</p>
+    <div id="msg">clique em mim</div>
+    <script>
+        let corpo = window.document.body
+
+        let d = window.document.getElementById('msg')
+
+        let p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write('esta escrito assim: ' +p1.innerText)
+
+        corpo.style.backgroundColor = 'black'
+        d.style.backgroundColor = 'red'
+        d.innerText = 'que coisa nao e msm'
+
+
+    </script>
+</body>
+</html>

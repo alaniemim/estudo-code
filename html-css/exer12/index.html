@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos com html</title>
+</head>
+<body>
+    <h1>inserindo video localmente</h1>
+    <p> <!--sempre que for colocar video coloque todos os formatos para qualque um conseguir acessar (colequei so mp3 pq to cm preguica e tbm so eu vou ver entao suave)-->
+        este video esta hospedado no meu proprio servidor
+    </p>
+
+    <video controls poster="imgs/paisagemmine600.jpg" width="560"> <!--parece que dar ate pra colocar tumbnail nos videos, e so usar "poster"-->
+        <source src="media/pexels01.mp4" type="video/mp4">
+
+        <p>seu navegador n tem compatibilidade com video</p>
+    </video>
+
+    <h1>inserindo videos do youtube</h1>
+    <!--se ficou na duvida dnv sobre as tag "iframe" e a tag "video", basicamente amigao, iframe e usada para video externo como youtube, e o video e pra videos internos do seu servidor etc..-->
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/70jNmCVMQ94" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; web-share" fulscreen ></iframe>
+        
+        
+    
+   
+</body>
+</html>

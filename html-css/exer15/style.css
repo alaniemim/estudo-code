@@ -1,0 +1,28 @@
+@charset "UTF=8";
+*{
+    font-family: monospace;
+   
+}
+body{
+    background-image: linear-gradient(to left, #11091a,#2f2f4d)
+    
+}
+main{ 
+    background-color: white;
+    width: 700px; /*largura*/
+    padding: 10px; /*esse padding, serve para "engordar a parada"*/
+    margin: auto; /*e a margem, coloquei "auto" para centralisar automaticamente*/
+    border-radius: 11px; /*esse serve para a borda, deixar ela mais curvadinha*/
+    box-shadow: 10px 10px 10px black; /*sombreamento, bom o nome diz muito*/
+}
+h1{
+ color: #e8d18e;
+ text-align: center;
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.548);
+}
+h2{
+    color: #bab195;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      font-family: monospace;
+      font-size: large;
+      background-color: black;
+      color: aliceblue;
+    }
+
+    #txtnac{
+      font-family: monospace;
+      background-color: blueviolet;
+      color: aquamarine;
+    }
+    
+    .butao{
+      font-family: monospace;
+      color: aliceblue;
+      background-color: black;
+    }
+    div{
+      display: inline;
+    }
+  </style>
+  <title>desafio 01 js</title>
+</head>
+<body>
+  <h1>nacionalidade</h1>
+  <p>
+    digite onde vc nasceu: <input type="text" id="txtnac">
+
+    <input type="button" id="butao" value="enter" onclick="calcular()">
+  </p>
+
+  resposta: <div id="resp" class="butao" >
+
+  </div>
+
+  <script>
+    
+    function calcular(){
+      let txtna = document.getElementById('txtnac')
+      let resp = document.getElementById('resp')
+      let ress = String(txtna.value)
+
+      if(ress == 'Brasil' |'BRAASIL'){
+        resp.innerHTML='brasileiro'
+      }
+      else{
+        resp.innerHTML='estrangeiro'
+      }
+
+
+    }
+  
+
+    
+
+    
+  </script>
+
+ 
+</body>
+</html>

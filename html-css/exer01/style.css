@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*{
+    height: 100%;
+}
+body{
+    font-family: monospace;
+    background-image: linear-gradient(to bottom, gray, purple);
+    background-attachment: fixed;
+    color: rgb(182, 242, 255)
+    
+}
+h1{
+ color: rgba(255, 0, 0, 0.85);
+}
+h2{
+    color: rgb(57, 9, 97); 
+}
+h3{
+    color:rgb(61, 61, 148);
+}
+mark{
+    background-color: lightcyan;
+}

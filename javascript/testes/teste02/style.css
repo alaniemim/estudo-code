@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    background-color: lightpink;
+    font-family: monospace;
+    font-size: large;
+
+}
+main{
+    box-shadow: 1px 1px 1px 1px black;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+
+    background-color: rgb(255, 120, 140);
+}
+div{
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    padding: 9px;
+
+    background-color: gray;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
