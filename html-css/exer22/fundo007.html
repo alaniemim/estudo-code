@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang=pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alinhamento vertical</title>
     <style>
         #container{
-            position: relative;
+            background-image: url(media/target001.png);
+            background-size: 100% 100%;
+            position: relative; /* por padrao em html, as posiçoes sao relativas.*/
             height: 500px;
             padding: 10px;
             background-color: purple;
@@ -15,10 +17,22 @@
 
         }
         #conteudo{
-            position: absolute;
+            background-image: url(media/target001.png);
+            background-size: 100% 100%;
+            background-position: center center;
             height: 200px;
             width: 400px;
+            top: 50%;
+            left: 50%;
+
+            position: absolute; 
+            /* fazendo a position ser absoluta, podemos configurar algumas propriedades importantes! como: top e left, agora vc 
+             nao precia mais usar gambiarras usando margin ksks*/
+
+             transform: translate(-50%, -50%);
             background-color: yellow;
+
+          
         }
     </style>
 </head>
