@@ -1,24 +1,37 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+:root{
+    --fonte1: 'Kdam Thmor Pro', sans-serif;
+    --fonte2: 'Roboto Mono', monospace;
+
+}
 
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte2);
+    font-weight: bolder;
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte1);
 }
 
 header > h1{
     padding-top: 50px;
     font-variant:small-caps;
+    font-size: 7.5vh;
   /*esse smal-caps que foi usado, deixa todas as letras maisculas porem deixa elas menores com as primeiras maiores, gostei desse jeito, se quisermos so deixar tudo maisculo e so usar o text-transform e uppercase*/
 }
 
@@ -41,6 +54,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vh;
 }
 
 .normal{
@@ -54,7 +68,8 @@ section{
 }
 
 .imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.626);
 }
 
