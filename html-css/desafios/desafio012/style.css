@@ -5,7 +5,6 @@
 :root{
     --fonte1: 'Kdam Thmor Pro', sans-serif;
     --fonte2: 'Roboto Mono', monospace;
-
 }
 
 *{
@@ -57,6 +56,11 @@ section{
     font-size: 3vh;
 }
 
+section > p {
+    padding-bottom: 1.3em;
+
+}
+
 .normal{
     background-color: white;
     color: black;
@@ -65,14 +69,28 @@ section{
 .imagem{
     background-color: gray;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.475);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p{
     display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.626);
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.512);
+    text-shadow: 1px 1px 0px black;
 }
 
+#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+ }
+ 
+ #img02{
+     background-image: url('imagens/background002.jpg');
+     background-position: right bottom;
+ }
+ 
 footer{
     background-color: black;
     text-align: center;
